@@ -21,7 +21,7 @@
                         </path>
                     </g>
                 </svg></div>
-            <div class="sidebar flex justify-end">
+            <div class="sidebar flex flex-col items-end">
                 <ul class="flex flex-col text-xl font-bold">
                     <li
                         class="flex justify-start items-center gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-2 hover:rounded-full mt-2">
@@ -67,10 +67,61 @@
                         class="flex justify-start items-center gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-2 hover:rounded-full mt-2">
                         <span class="material-symbols-outlined text-3xl">more_horiz</span>More
                     </li>
+                    <li>
+                        <div class="button w-full my-3">
+                            <button class="bg-white text-black px-18 py-2 text-xl rounded-full">Post</button>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </div>
-        <div class="second w-full border border-y-black">bb</div>
+        <div class="second w-full border border-y-black">
+            <div class="top flex p-3 relative">
+                <div class="absolute w-15 h-1 rounded-full bg-blue-500 bottom-0 left-[17%] z-10"></div>
+                <div class="left flex justify-center w-1/2">For You</div>
+                <div class="right flex justify-center w-1/2">Following</div>
+                <div class="setting"><span class="material-symbols-outlined">
+                        settings
+                    </span></div>
+            </div>
+            <div class="h-[1px] bg-gray-600 w-full"></div>
+            <div class="whatsishappen flex gap-4 my-3">
+                <div class="img ml-2 w-15 h-12 mt-2">
+                    <img class="w-full h-full rounded-full object-cover"
+                        src="https://pbs.twimg.com/profile_images/2018381714557669376/HiD9Dnbt_400x400.png" alt="">
+                </div>
+                <div class="w-full"><input class="w-full h-7 my-2 text-xl bg-black outline-none" type="text"
+                        placeholder="What's Happening?">
+                    <div class="text-blue-400 flex items-center gap-1 w-full my-4"><span
+                            class="material-symbols-outlined">
+                            globe_asia
+                        </span>
+                        <span>Everyone can reply</span>
+                    </div>
+                    <div class="w-[90%] bg-gray-600 my-3 h-[0.2px]"></div>
+                    <div class="blueicons flex gap-2">
+                        <span class="material-symbols-outlined text-blue-400 cursor-pointer">
+                            image
+                        </span>
+                        <span class="material-symbols-outlined text-blue-400 cursor-pointer">
+                            gif_box
+                        </span>
+                        <span class="material-symbols-outlined text-blue-400 cursor-pointer">
+                            sentiment_satisfied
+                        </span>
+                        <span class="material-symbols-outlined text-blue-400 cursor-pointer">
+                            calendar_clock
+                        </span>
+                        <span class="material-symbols-outlined text-blue-400 cursor-pointer">
+                            explore_nearby
+                        </span>
+                        <div class="btn">
+                            <button class="bg-gray-400 text-black rounded-full px-3 py-1 ml-12 font-bold">Post</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="third w-full">
             <div class="search-bar m-3">
                 <input type="text" class="border border-gray-700 w-full bg-black text-white px-4 py-2 rounded-full"
@@ -160,8 +211,8 @@
                 </div>
 
             </div>
+
         </div>
-    </div>
 </body>
 
 </html>
